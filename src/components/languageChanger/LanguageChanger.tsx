@@ -19,11 +19,11 @@ export default function LanguageChanger() {
     const availableLanguages = ["Az", "En", "Ru"];
     const [dropdown, setDropdown] = useState(false);
 
-    const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-        const newLang = e.target.value;
-        setSelectedLanguage(newLang);
-        console.log("Selected language:", newLang);
-    };
+    // const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    //     const newLang = e.target.value;
+    //     setSelectedLanguage(newLang);
+    //     console.log("Selected language:", newLang);
+    // };
 
     return (
         <div className="relative w-[fit-content] rounded cursor-pointer">
