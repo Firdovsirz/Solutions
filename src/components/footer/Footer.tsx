@@ -2,8 +2,6 @@
 
 import "./Footer.scss";
 import React from 'react';
-import Image from 'next/image';
-import Logo from "@/../public/assets/logo.png";
 import { Typewriter } from 'react-simple-typewriter';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';

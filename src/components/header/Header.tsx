@@ -6,7 +6,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from "next/navigation";
 import Logo from "@/../public/assets/logo.png";
-import LanguageChanger from '../languageChanger/LanguageChanger';
 
 export default function Header() {
     const pathname = usePathname();
